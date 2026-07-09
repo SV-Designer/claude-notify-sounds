@@ -1,6 +1,6 @@
 ---
 name: claude-notify-sounds
-description: 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook。讓 Claude 在「換你了（這輪結束）」「需要你回應（權限等待）」兩個時機播放系統音效，不跳任何桌面通知。觸發詞：「裝 Claude 音效」「設定 Claude 音效」「claude sounds」「移除 Claude 音效」。僅支援 macOS，需要 jq。
+description: 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook。讓 Claude 在「換你了（這輪結束）」「需要你回應（權限等待）」兩個時機播放系統音效，不跳任何桌面通知。觸發詞：「claude通知音效」。僅支援 macOS，需要 jq。
 ---
 
 # claude-notify-sounds
@@ -16,7 +16,7 @@ description: 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」ho
 
 ## 何時用這個 skill
 
-使用者說「裝 Claude 音效」「設定 Claude 音效」「我只要音效不要通知」「移除 Claude 音效」等。
+使用者說「claude通知音效」「我只要音效不要通知」等。
 
 ## 安裝
 

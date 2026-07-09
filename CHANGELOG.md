@@ -2,6 +2,11 @@
 
 本專案的所有重大變更記錄於此（格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)）。
 
+## [1.1.2] - 2026-07-10
+
+### Changed
+- **觸發詞精簡為「claude通知音效」**：移除「裝 Claude 音效 / 設定 Claude 音效 / claude sounds / 移除 Claude 音效」等別名，統一成單一觸發詞。動機：使用者全面收斂各 skill 觸發語、降低記憶負擔。功能與安裝流程完全不變（安裝／設定／移除仍在同一 skill 內）。
+
 ## [1.1.1] - 2026-07-09
 
 ### Changed
