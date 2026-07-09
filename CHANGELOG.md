@@ -2,6 +2,11 @@
 
 本專案的所有重大變更記錄於此（格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)）。
 
+## [1.1.1] - 2026-07-09
+
+### Changed
+- 預設音效調整：完工（Stop）從 `Glass` 改為 **`Funk`**、需要你回應（Notification）從 `Funk` 改為 **`Morse`**。兩者辨識度更高、彼此更不易混淆，避免同一輪結束時聽起來像同一種音。僅調整 `config.example.env` 的預設值，既有安裝者的個人設定檔（`~/.config/claude-notify-sounds/env`）不受影響。
+
 ## [1.1.0] - 2026-06-30
 
 ### Removed
