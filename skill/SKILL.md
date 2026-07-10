@@ -14,13 +14,15 @@ description: 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」ho
 | 換你了（這輪結束）| Stop | Glass |
 | 需要你回應 / 批准 | Notification | Funk |
 
+> 上表僅為**出廠預設**。回答使用者「目前音效是什麼」前，先讀 `~/.config/claude-notify-sounds/env` 為準（使用者可能已客製）；也不要把使用者目前的客製值寫死進本檔（這是公開 repo）。
+
 ## 何時用這個 skill
 
 使用者說「claude通知音效」「我只要音效不要通知」等。
 
 ## 安裝
 
-在 repo 根目錄執行：
+在 repo 根目錄（`~/Github/Projects/claude-notify-sounds/`）執行：
 
 ```bash
 bash install.sh

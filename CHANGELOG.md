@@ -2,6 +2,12 @@
 
 本專案的所有重大變更記錄於此（格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)）。
 
+## [1.1.3] - 2026-07-10
+
+### Changed
+- SKILL.md 補上 repo 絕對路徑（`~/Github/Projects/claude-notify-sounds/`）：從任意資料夾觸發時不用再猜 install.sh 在哪。
+- 預設音效表格加註「僅為出廠預設，實際以 `~/.config/claude-notify-sounds/env` 為準」：避免使用者已客製音效時，照表格回答出錯誤資訊。
+
 ## [1.1.2] - 2026-07-10
 
 ### Changed
