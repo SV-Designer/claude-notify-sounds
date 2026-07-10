@@ -11,6 +11,6 @@ CONFIG="${CLAUDE_NOTIFY_SOUNDS_CONFIG:-$HOME/.config/claude-notify-sounds/env}"
 [ "${NOTIFY_WAITING_ENABLED:-1}" = "1" ] || exit 0
 SOUND="${NOTIFY_WAITING_SOUND:-Funk}"
 
-afplay "/System/Library/Sounds/${SOUND}.aiff" >/dev/null 2>&1
+afplay "/System/Library/Sounds/${SOUND}.aiff" >/dev/null 2>&1 || true  # 音效名設錯不該讓 hook 非零收場（set -e 下會每輪吐警告）
 
 exit 0

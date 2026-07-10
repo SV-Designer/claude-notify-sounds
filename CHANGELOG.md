@@ -2,6 +2,11 @@
 
 本專案的所有重大變更記錄於此（格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)）。
 
+## [1.1.4] - 2026-07-10
+
+### Fixed
+- 兩支 hook 的 `afplay` 補 `|| true`：音效名若設錯（env 打錯字），`set -e` 會讓 hook 以非零收場、Claude Code 每輪吐 hook 警告。現在播放失敗安靜跳過，不干擾工作（環境稽核發現）。
+
 ## [1.1.3] - 2026-07-10
 
 ### Changed

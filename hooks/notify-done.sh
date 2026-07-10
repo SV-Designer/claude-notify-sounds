@@ -16,6 +16,6 @@ SOUND="${NOTIFY_DONE_SOUND:-Glass}"
 INPUT=$(cat)
 echo "$INPUT" | grep -q '"stop_hook_active"[[:space:]]*:[[:space:]]*true' && exit 0
 
-afplay "/System/Library/Sounds/${SOUND}.aiff" >/dev/null 2>&1
+afplay "/System/Library/Sounds/${SOUND}.aiff" >/dev/null 2>&1 || true  # 音效名設錯不該讓 hook 非零收場（set -e 下會每輪吐警告）
 
 exit 0
