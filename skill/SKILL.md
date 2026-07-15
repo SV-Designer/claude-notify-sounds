@@ -22,7 +22,7 @@ description: 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」ho
 
 ## 安裝
 
-在 repo 根目錄（`~/Github/Projects/claude-notify-sounds/`）執行：
+在 repo 根目錄執行：
 
 ```bash
 bash install.sh

@@ -2,6 +2,14 @@
 
 本專案的所有重大變更記錄於此（格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)）。
 
+## [1.1.5] - 2026-07-15
+
+### Fixed
+- SKILL.md 安裝說明改用路徑中性寫法，移除已改名失效的舊本機絕對路徑，不依賴特定本機目錄結構。
+
+### Changed
+- 補雙倉同步發版流程（個人 chensoo8911 ＋ 公司 SV-Designer 兩邊皆公開）；公開分身原本落後於 v1.1.2 的觸發詞精簡決策，本版一併校正回單一觸發詞。
+
 ## [1.1.4] - 2026-07-10
 
 ### Fixed
@@ -10,7 +18,7 @@
 ## [1.1.3] - 2026-07-10
 
 ### Changed
-- SKILL.md 補上 repo 絕對路徑（`~/Github/Projects/claude-notify-sounds/`）：從任意資料夾觸發時不用再猜 install.sh 在哪。
+- SKILL.md 補上 repo 絕對路徑：從任意資料夾觸發時不用再猜 install.sh 在哪。
 - 預設音效表格加註「僅為出廠預設，實際以 `~/.config/claude-notify-sounds/env` 為準」：避免使用者已客製音效時，照表格回答出錯誤資訊。
 
 ## [1.1.2] - 2026-07-10
